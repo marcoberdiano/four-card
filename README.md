@@ -10,11 +10,9 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -32,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [https://four-card-two-blond.vercel.app/](https://four-card-two-blond.vercel.app/)
 
 ## My process
 
@@ -43,6 +41,7 @@ Users should be able to:
 - Flexbox
 - [React](https://reactjs.org/) - JS library
 - [Sass/Scss](https://sass-lang.com/) - For styles
+- [Styled Components](https://styled-components.com/) - For styles
 
 ## Author
 
