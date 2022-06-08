@@ -69,9 +69,6 @@
   .app-container .title {
     font-size: 1.5em;
   }
-  .app-container .subtitle {
-    font-size: 10px;
-  }
   .app-container .cards-container {
     grid-template-columns: 1fr;
   }
