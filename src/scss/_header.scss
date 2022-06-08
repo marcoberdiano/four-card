@@ -1,0 +1,21 @@
+.header-container{
+    padding: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 35em;
+    .title{
+        color: $GrayishBlue;
+        font-weight: 300;
+    }
+    .subtitle{
+        color: $VeryDarkBlue;
+        font-weight: 600;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .paragraph{
+        color: $GrayishBlue;
+    }
+}

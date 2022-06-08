@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.header-container {
+  padding: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 35em;
+}
+.header-container .title {
+  color: hsl(229deg, 6%, 66%);
+  font-weight: 300;
+}
+.header-container .subtitle {
+  color: hsl(234deg, 12%, 34%);
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.header-container .paragraph {
+  color: hsl(229deg, 6%, 66%);
+}
+
+.cards-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2em;
+  gap: 20px;
+}
+.cards-container .cards-center {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cards-container .card-container {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.348);
+  background-color: #FFF;
+  width: 18em;
+  padding: 1em;
+}
+.cards-container .card-container .card-title {
+  color: hsl(234deg, 12%, 34%);
+}
+.cards-container .card-container .card-desc {
+  margin-top: 1em;
+  color: hsl(229deg, 6%, 66%);
+}
+.cards-container .card-container .card-img-container {
+  margin-top: 2em;
+  text-align: right;
+}
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 910px) {
+  .app-container {
+    padding-bottom: 1em;
+    height: auto;
+  }
+  .app-container .title {
+    font-size: 1.5em;
+  }
+  .app-container .subtitle {
+    font-size: 10px;
+  }
+  .app-container .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+/*# sourceMappingURL=index.css.map */

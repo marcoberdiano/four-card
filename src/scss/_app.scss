@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import './colors';
+@import './header';
+@import './cards';
+.app-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 910px) {
+    .app-container{
+        padding-bottom: 1em;
+        height: auto;
+
+        .title{
+            font-size: 1.5em;
+        }
+        .subtitle{
+            font-size: 10px;
+        }
+        .cards-container{
+            grid-template-columns: 1fr;
+        }
+    }
+}
